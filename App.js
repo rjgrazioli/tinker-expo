@@ -29,8 +29,8 @@ const KeyScreenComponent = () => {
 
 const INITIAL_ROUTE_NAME = 'Community';
 const tabBarOptions = {
-  activeTintColor: "blue",
-  inactiveTintColor: "#000",
+  activeTintColor: "#000",
+  inactiveTintColor: "#aaa",
   allowFontScaling: true,
   labelStyle: {
     fontSize: 10,
