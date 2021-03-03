@@ -32,19 +32,29 @@ export default KeyScreenModal = () => {
   );
 }
 const styles = StyleSheet.create({
+  tabBarButtonContainer: {
+    paddingBottom: 20,
+  },
+  tabBarButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 68,
+    width: 68,
+    backgroundColor: '#000',
+    borderRadius: 34,
+  },
   modal: {
     justifyContent: 'flex-end',
     margin: 0,
   },
   modalBody: {
     position: 'relative',
-    backgroundColor: 'white',
     alignItems: 'center',
     height: 400,
     padding: 22,
+    backgroundColor: 'white',
     borderTopRightRadius: 17,
     borderTopLeftRadius: 17,
-    backgroundColor: 'white',
   },
   modalTab: {
     position: 'absolute',
@@ -52,22 +62,11 @@ const styles = StyleSheet.create({
     left: '50%',
     height: 6,
     width: 40,
-    borderRadius: 3,
     backgroundColor: "#D8D8D8",
+    borderRadius: 3,
   },
   modalTitle: {
-    fontSize: 20,
     marginBottom: 12,
-  },
-  tabBarButtonContainer: {
-    paddingBottom: 20,
-  },
-	tabBarButton: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 68,
-    width: 68,
-    backgroundColor: '#000',
-    borderRadius: 34,
+    fontSize: 20,
   },
 });

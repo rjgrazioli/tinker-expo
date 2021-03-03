@@ -33,8 +33,8 @@ const tabBarOptions = {
   inactiveTintColor: "#aaa",
   allowFontScaling: true,
   labelStyle: {
-    fontSize: 10,
     paddingBottom: 8,
+    fontSize: 10,
     fontWeight: 'bold',
   },
   tabStyle: {
@@ -64,12 +64,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
