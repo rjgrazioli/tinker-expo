@@ -9,8 +9,8 @@ A small navTabs prototype with a FAB button that opens a modal. A few notes:
 Make sure you have the expo-cli installed
 ```npm install --global expo-cli```
 
-Install any other dependencies
-```npm i```
+Install dependencies
+```expo install```
 
 Run the app
 ```expo start```
