@@ -1,4 +1,4 @@
-_Warning: This prototype was build by a designer and is meant a demostration. I'm not liable for any bugs or jank that ensues_
+_Warning: This prototype was build by a designer and is meant to serve as a demostration. I'm not liable for any bugs or jank that ensues_
 
 # tinker-rn-nav-tabs
 A small navTabs prototype with a FAB button that opens a modal. A few notes:
